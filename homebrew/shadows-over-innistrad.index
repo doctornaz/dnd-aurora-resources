@@ -8,6 +8,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="items-weapons.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/dnd-aurora-resources/shadows-over-innistrad/items-weapons.index" />
+		<file name="items-weapons.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/items-weapons.xml" />
 	</files>
 </index>

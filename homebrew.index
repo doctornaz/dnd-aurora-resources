@@ -5,10 +5,10 @@
 		<description>User-made content.</description>
 		<author url="http://dnd.wizards.com">Some Idiots</author>
 		<update version="0.1.0">
-			<file name="user.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/resources.index" />
+			<file name="user.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew.index" />
 		</update>
 	</info>
 	<files>
-		<file name="shadows-over-innistrad.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/shadows-over-innistrad.index" />
+		<file name="shadows-over-innistrad.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad.index" />
 	</files>
 </index>
