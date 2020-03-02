@@ -4,7 +4,7 @@
 		<name>Plane Shift: Shadows over Innistrad</name>
 		<description>Custom made items from our Shadows Over Innistrad D&amp;D campaign.</description>
 		<update version="0.1.0">
-			<file name="shadows-over-innistrad.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/shadows-over-innistrad.index" />
+			<file name="shadows-over-innistrad.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad.index" />
 		</update>
 	</info>
 	<files>
