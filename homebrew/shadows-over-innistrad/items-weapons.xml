@@ -52,4 +52,17 @@
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set> -->
         </setters>
     </element>
+    <element name="Mantle of the Armored Soul" type="Magic Item" source="Plane Shift: Shadows over Innistrad" id="ID_DRNAZ_MAGIC_ITEM_MOTAS">
+        <description>
+            <p>A sacred mantle. Laced with gold.</p>
+            <p>When you wear this mantle, you are protected from harmful effects. You have advantage on all Charisma and Wisdom saving throws.</p>
+        </description>
+         <set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+    </element>
 </elements>
