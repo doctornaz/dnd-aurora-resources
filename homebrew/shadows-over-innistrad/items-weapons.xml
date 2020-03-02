@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.3">
+        <update version="0.0.7">
             <file name="items-weapons.xml"
                 url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/items-weapons.xml" />
         </update>
@@ -44,12 +44,13 @@
         </description>
         <setters>
             <set name="keywords">dagger</set>
-            <set name="category">Magic Weapons</set>
-            <set name="cost" currency="gp">0</set>
-            <set name="type" addition="dagger">Weapon</set>
-            <set name="rarity">Legendary</set>
-            <set name="attunement">true</set>
-            <set name="enhancement">1</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
             <set name="damage" type="piercing">1d4</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
         </setters>
