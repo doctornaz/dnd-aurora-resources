@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User Made</name>
+		<description>User-made content.</description>
+		<author url="http://dnd.wizards.com">Some Idiots</author>
+		<update version="0.1.0">
+			<file name="user.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/resources.index" />
+		</update>
+	</info>
+	<files>
+		<file name="shadows-over-innistrad.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/shadows-over-innistrad.index" />
+	</files>
+</index>
