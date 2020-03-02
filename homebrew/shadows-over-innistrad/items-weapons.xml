@@ -2,6 +2,7 @@
 <elements>
     <info>
         <name>Items</name>
+		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Wizards of the Coast</author>
         <update version="0.0.9">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/items-weapons.xml" />
         </update>
