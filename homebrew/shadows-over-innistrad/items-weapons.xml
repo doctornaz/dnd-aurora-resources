@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Items</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/items-weapons.xml" />
         </update>
     </info>
