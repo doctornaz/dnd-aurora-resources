@@ -72,7 +72,6 @@
             <set name="rarity">Rare</set>
             <set name="attunement">true</set>
             <set name="enhancement">1</set>
-
         </setters>
     </element>
 </elements>
