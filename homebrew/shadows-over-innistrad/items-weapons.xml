@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Items</name>
-		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Wizards of the Coast</author>
-        <update version="0.0.9">
+		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Some Idiots</author>
+        <update version="0.1.0">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/items-weapons.xml" />
         </update>
     </info>
@@ -19,24 +19,24 @@
                 blade.
             </p>
             <p class="indent">
-                <strong><em>Dormant State.</em> The wielder gains a +1 bonus to attack and damage rolls made with this
+                <strong><em>Dormant State.</em></strong>The wielder gains a +1 bonus to attack and damage rolls made with this
                     weapon. Whenever a creature is struck with a critical hit from Whisper, the target must make a DC 13
                     Wisdom saving throw or become frightened of the wielder for 1 minute. On a success, they are immune
-                    to being frightened by this effect for the next 24 hours.</strong>
+                    to being frightened by this effect for the next 24 hours.
             </p>
             <p class="indent">
-                <strong><em>Awakened State.</em> The bonus to attack and damage rolls increases to a +2. Additionally, a
+                <strong><em>Awakened State.</em></strong> The bonus to attack and damage rolls increases to a +2. Additionally, a
                     target that is hit with this weapon takes an additional 1d6 psychic damage. The DC to resist being
-                    frightened from a critical hit increases to 15.</strong>
+                    frightened from a critical hit increases to 15.
             </p>
             <p class="indent">
-                <strong><em>Exalted State.</em> The bonus to attack and damage rolls increases to a +3 and the
+                <strong><em>Exalted State.</em></strong> The bonus to attack and damage rolls increases to a +3 and the
                     additional
                     damage taken increases to 1d8 psychic damage. The DC to resist being frightened from a critical hit
                     increases to 17. Whenever Whisper is thrown, but before it hits, the wielder can choose to transform
                     into shadow and merge with the blade, teleporting instantly to wherever the blade impacts. If the
                     target is a creature, the wielder emerges adjacent to the target in a space of their choice. If they miss
-                    with the attack, the DM determines where the wielder teleports accordingly.</strong>
+                    with the attack, the DM determines where the wielder teleports accordingly.
             </p>
         </description>
         <setters>
