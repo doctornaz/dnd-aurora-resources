@@ -8,11 +8,11 @@
     </info>
     <element name="Whisper" type="Magic Item" source="Shadows Over Innistrad"
         id="ID_DrNaz_ShadowsOverInnistrad_MagicItem_Whisper">
-        <supports>
+        <!-- <supports>
             ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING,
             ID_INTERNAL_WEAPON_PROPERTY_FINESSE,
             ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN
-        </supports>
+        </supports> -->
         <description>
             <p>
                 Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved
@@ -51,8 +51,8 @@
 			<set name="attunement">true</set>
 			<set name="enhancement">1</set>
 			<set name="weapon">Dagger</set>
-            <set name="damage" type="piercing">1d4</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+            <!-- <set name="damage" type="piercing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set> -->
         </setters>
     </element>
 </elements>
