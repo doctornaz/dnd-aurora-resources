@@ -5,7 +5,7 @@
 		<description>User-made content.</description>
 		<author url="http://dnd.wizards.com">Some Idiots</author>
 		<update version="0.1.0">
-			<file name="user.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew.index" />
+			<file name="homebrew.index" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew.index" />
 		</update>
 	</info>
 	<files>
