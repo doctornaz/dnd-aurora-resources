@@ -65,11 +65,11 @@
                 Wisdom saving throws.</p>
         </description>
         <setters>
-            <set name="keywords">dagger</set>
-            <set name="category">Magic Weapons</set>
+            <set name="category">Magic Armor</set>
+			<set name="type" addition="light">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
             <set name="cost" currency="gp">0</set>
-            <set name="type" addition="dagger">Weapon</set>
-            <set name="rarity">Rare</set>
             <set name="attunement">true</set>
             <set name="enhancement">1</set>
         </setters>
