@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Items</name>
-		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Some Idiots</author>
-        <update version="0.1.0">
+		<author url="https://criticalrole.fandom.com/wiki/Whisper">Critical Role</author>
+        <update version="0.1.1">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/items-weapons.xml" />
         </update>
     </info>
