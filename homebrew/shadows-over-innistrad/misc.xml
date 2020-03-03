@@ -3,7 +3,7 @@
     <info>
         <name>Items</name>
         <author url="https://criticalrole.fandom.com/wiki/Whisper">Critical Role</author>
-        <update version="0.1.3">
+        <update version="0.1.4">
             <file name="misc.xml"
                 url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/misc.xml" />
         </update>
