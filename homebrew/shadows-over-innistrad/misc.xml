@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Items</name>
+        <author url="https://criticalrole.fandom.com/wiki/Whisper">Critical Role</author>
+        <update version="0.1.3">
+            <file name="misc.xml"
+                url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/misc.xml" />
+        </update>
+    </info>
+    <element name="Whisper" type="Magic Item" source="Plane Shift: Shadows over Innistrad"
+        id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_WHISPER">
+        <supports>
+            ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING,
+            ID_INTERNAL_WEAPON_PROPERTY_FINESSE,
+            ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN
+        </supports>
+        <description>
+            <p>
+                Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved
+                blade.
+            </p>
+            <p class="indent">
+                <strong><em>Dormant State.</em></strong>The wielder gains a +1 bonus to attack and damage rolls made
+                with this
+                weapon. Whenever a creature is struck with a critical hit from Whisper, the target must make a DC 13
+                Wisdom saving throw or become frightened of the wielder for 1 minute. On a success, they are immune
+                to being frightened by this effect for the next 24 hours.
+            </p>
+            <p class="indent">
+                <strong><em>Awakened State.</em></strong> The bonus to attack and damage rolls increases to a +2.
+                Additionally, a
+                target that is hit with this weapon takes an additional 1d6 psychic damage. The DC to resist being
+                frightened from a critical hit increases to 15.
+            </p>
+            <p class="indent">
+                <strong><em>Exalted State.</em></strong> The bonus to attack and damage rolls increases to a +3 and the
+                additional
+                damage taken increases to 1d8 psychic damage. The DC to resist being frightened from a critical hit
+                increases to 17. Whenever Whisper is thrown, but before it hits, the wielder can choose to transform
+                into shadow and merge with the blade, teleporting instantly to wherever the blade impacts. If the
+                target is a creature, the wielder emerges adjacent to the target in a space of their choice. If they
+                miss
+                with the attack, the DM determines where the wielder teleports accordingly.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">dagger</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">1</set>
+            <set name="weapon">Dagger</set>
+            <set name="damage" type="piercing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+        </setters>
+    </element>
+    <element name="Mantle of the Armored Soul" type="Magic Item" source="Plane Shift: Shadows over Innistrad"
+        id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_MOTAS">
+        <description>
+            <p>A sacred mantle. Laced with gold.</p>
+            <p>When you wear this mantle, you are protected from harmful effects. You have advantage on all Charisma and
+                Wisdom saving throws.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="type" addition="light">Armor</set>
+            <set name="rarity">Rare</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">1</set>
+        </setters>
+    </element>
+    <element name="Otherwordly Influence" type="Background" source="Plane Shift: Shadows over Innistrad"
+        id="ID_DRNAZ_SHADOWSOVERINNISTRAD_BACKGROUND_OI">
+        <description>
+            <p>Your prayers and pleads for help are being answered. <em>By something out of this world</em>. You're
+                slowly losing your mind. Every time you cast a spell, choose one </p>
+            <h5 class="caption">Insane Incidents</h5>
+            <table>
+                <thead>
+                    <tr>
+                        <td>d100</td>
+                        <td>Effect</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01-02</td>
+                        <td>Nothing happens. Apparently your deity is bored of their own insanity for the moment.</td>
+                    </tr>
+                    <tr>
+                        <td>03-04</td>
+                        <td>Other creatures perceive you as a talking grapefruit for the next minute.</td>
+                    </tr>
+                    <tr>
+                        <td>05-06</td>
+                        <td>You turn into a frog for 1 minute. This effect ends early if you take any damage.</td>
+                    </tr>
+                    <tr>
+                        <td>07-08</td>
+                        <td>You perceive a random creature you can see as a shapeshifter that transformed into yourself.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>09-10</td>
+                        <td>You become blinded and deafened for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>11-12</td>
+                        <td>A random creature you can see begins babbling and is incapable of normal speech for the next
+                            minute.</td>
+                    </tr>
+                    <tr>
+                        <td>13-14</td>
+                        <td>The next time you touch a creature within the next minute. you cast *greater restoration* on
+                            it.</td>
+                    </tr>
+                    <tr>
+                        <td>15-16</td>
+                        <td>A random object within 30 feet of you shines dim light up to 10 feet.</td>
+                    </tr>
+                    <tr>
+                        <td>17-18</td>
+                        <td>A random creature you can see becomes knocked prone and cannot stand up for the next minute.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>19-20</td>
+                        <td>An invisible force pushes a random creature you can see up to 10 feet in a random direction.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>21-22</td>
+                        <td>You become frightened of a random creature you can see for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>23-24</td>
+                        <td>You cast *feign death* on yourself.</td>
+                    </tr>
+                    <tr>
+                        <td>25-26</td>
+                        <td>You feel an inexplicable but irrestible urge to eat an exotic fruit for the next minute.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>27-28</td>
+                        <td>A random object you can see transforms into an ogre for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>29-30</td>
+                        <td>A spectral tendril sweeps on you, dealing 2d8 acid damage and 2d8 necrotic damage.</td>
+                    </tr>
+                    <tr>
+                        <td>31-32</td>
+                        <td>A random creature you can see becomes invisible for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>33-34</td>
+                        <td>For the next minute, whenever you move, a short sound of horn honks from your limbs.</td>
+                    </tr>
+                    <tr>
+                        <td>35-36</td>
+                        <td>A random creature you can see becomes charmed to you for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>37-38</td>
+                        <td>You float three inches above the ground for <br>1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>39-40</td>
+                        <td>You cast *inflict wounds* as a 3rd-level spell on yourself.</td>
+                    </tr>
+                    <tr>
+                        <td>41-42</td>
+                        <td>A random creature you can see turns into a cheese wheel for 1 minute. This effect ends early
+                            if it takes any damage.</td>
+                    </tr>
+                    <tr>
+                        <td>43-44</td>
+                        <td>A faint, gibbering noise manifests around you for the next minute.</td>
+                    </tr>
+                    <tr>
+                        <td>45-46</td>
+                        <td>You cast *phantasmal force* on yourself.</td>
+                    </tr>
+                    <tr>
+                        <td>47-48</td>
+                        <td>For the next minute, whenever you speak the word "it," you take 1 psychic damage.</td>
+                    </tr>
+                    <tr>
+                        <td>49-50</td>
+                        <td>A random creature you can see bursts into flame, taking 2d8 fire damage and 2d8 radiant
+                            damage.</td>
+                    </tr>
+                    <tr>
+                        <td>51-52</td>
+                        <td>You turn invisible for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>53-54</td>
+                        <td>You fall unconscious for the next 8 hours. This effect ends early if you take any damage.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>55-56</td>
+                        <td>You are hit by a bolt lightning, taking 4d8 lightning damage.</td>
+                    </tr>
+                    <tr>
+                        <td>57-58</td>
+                        <td>A random creature you can see casts *command* as a 1st-level spell on you. The command is
+                            always "Atten-*tion!"*</td>
+                    </tr>
+                    <tr>
+                        <td>59-60</td>
+                        <td>An exotic fruit of your choice appears in an unoccupied space within 10 feet of you.</td>
+                    </tr>
+                    <tr>
+                        <td>61-62</td>
+                        <td>Any armor or clothing you are wearing vanishes with a faint *pop.* It reappears in 1d6
+                            minutes, forcibly wearing itself to you.</td>
+                    </tr>
+                    <tr>
+                        <td>63-64</td>
+                        <td>An invisible force pushes you up to 10 feet in a random direction.</td>
+                    </tr>
+                    <tr>
+                        <td>65-66</td>
+                        <td>You cast *calm emotions* on a random creature you can see.</td>
+                    </tr>
+                    <tr>
+                        <td>67-68</td>
+                        <td>A random creature you can see casts *lesser restoration* on itself.</td>
+                    </tr>
+                    <tr>
+                        <td>69-70</td>
+                        <td>You gain vulnerability to bludgeoning, piercing, and slashing damage until the end of your
+                            next turn.</td>
+                    </tr>
+                    <tr>
+                        <td>71-72</td>
+                        <td>A random creature you can see casts *Tasha's hideous laughter* as a 1st-level spell on you.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>73-74</td>
+                        <td>A random object you can see transforms into a badger for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>75-76</td>
+                        <td>The next time you touch a creature within the next minute. you cast *dispel magic* on it.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>77-78</td>
+                        <td>You begin babbling and are incapable of normal speech for the next minute.</td>
+                    </tr>
+                    <tr>
+                        <td>79-80</td>
+                        <td>For the next minute, you can only speak in Deep Speech, even if you do not understand it.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>81-82</td>
+                        <td>You become charmed to a random creature you can see for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>83-84</td>
+                        <td>You and a random creature you can see regain 2d8 points.</td>
+                    </tr>
+                    <tr>
+                        <td>85-86</td>
+                        <td>A random creature you can see becomes stunned for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>87-88</td>
+                        <td>You cast *zone of truth* centered on yourself.</td>
+                    </tr>
+                    <tr>
+                        <td>89-90</td>
+                        <td>A random object within 10 feet of you "speaks" a short nonsense in your voice.</td>
+                    </tr>
+                    <tr>
+                        <td>91-92</td>
+                        <td>For the next minute, you perceive all humanoid creatures as fruits, depending on their race.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>93-94</td>
+                        <td>Your mind becomes scrambled, inflicting 4d8 psychic damage to yourself.</td>
+                    </tr>
+                    <tr>
+                        <td>95-96</td>
+                        <td>You cast *sleep* as a 5th-level spell centered on yourself.</td>
+                    </tr>
+                    <tr>
+                        <td>97-98</td>
+                        <td>A random creature you can see becomes frightened of you for 1 minute.</td>
+                    </tr>
+                    <tr>
+                        <td>99-00</td>
+                        <td>You become immune to all damage except force damage until the start of your next turn.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </description>
+    </element>
+</elements>
