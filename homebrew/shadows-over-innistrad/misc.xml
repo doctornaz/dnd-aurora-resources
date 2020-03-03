@@ -3,7 +3,7 @@
     <info>
         <name>Items</name>
         <author url="https://criticalrole.fandom.com/wiki/Whisper">Critical Role</author>
-        <update version="0.1.4">
+        <update version="0.1.5">
             <file name="misc.xml"
                 url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/misc.xml" />
         </update>
@@ -308,4 +308,22 @@
             </table>
         </description>
     </element>
+    <element name="Saint Raban's Ward" type="Magic Item" source="Plane Shift: Shadows over Innistrad" id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_SRW">
+		<description>
+			<p>While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.</p>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="3" bonus="enhancement" />
+		</rules>
+	</element>
 </elements>
