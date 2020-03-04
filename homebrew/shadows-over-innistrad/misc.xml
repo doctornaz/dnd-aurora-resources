@@ -3,7 +3,7 @@
     <info>
         <name>Items</name>
         <author url="https://criticalrole.fandom.com/wiki/Whisper">Critical Role</author>
-        <update version="0.1.6">
+        <update version="0.1.7">
             <file name="misc.xml"
                 url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/misc.xml" />
         </update>
@@ -60,12 +60,12 @@
     <element name="Mantle of the Armored Soul" type="Magic Item" source="Plane Shift: Shadows over Innistrad"
         id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_MOTAS">
         <description>
-            <p>A sacred mantle. Laced with gold.</p>
+            <p>It is said that this silver and blue mantle was woven by a follower of
+                the Fourth Angel, who sought protection from the evils that started to spread across Innistrad.</p>
             <p>When you wear this mantle, you are protected from harmful effects. You have advantage on all Charisma and
                 Wisdom saving throws.</p>
         </description>
         <setters>
-            <set name="keywords">artificer infusion</set>
             <set name="category">Wondrous Items</set>
             <set name="cost" currency="gp">0</set>
             <set name="weight" lb="0">0 lb.</set>
@@ -308,21 +308,49 @@
             </table>
         </description>
     </element>
-    <element name="Saint Raban's Ward" type="Magic Item" source="Plane Shift: Shadows over Innistrad" id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_SRW">
-		<description>
-			<p>While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.</p>
-		</description>
-		<setters>
-			<set name="keywords">shield</set>
-			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="shield">Armor</set>
-			<set name="rarity">Very Rare</set>
-			<set name="enhancement">3</set>
-			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
-		</setters>
-		<rules>
-			<stat name="ac:shield" value="3" bonus="enhancement" />
-		</rules>
-	</element>
+    <element name="Saint Raban's Ward" type="Magic Item" source="Plane Shift: Shadows over Innistrad"
+        id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_SRW">
+        <description>
+            <p>This silver shield is adorned with gold and blue accents, engraved with a depiction Saint Raban's
+                sacrifice.</p>
+            <p>Once per turn, as an action, can expend 1 charge to cast the heal spell from this shield. Regains all
+                charges at dawn.</p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="attunement">true</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+        </setters>
+        <rules>
+            <stat name="ac:shield" value="3" bonus="enhancement" />
+        </rules>
+    </element>
+    <element name="Moonsilver Spear" type="Magic Item" source="Plane Shift: Shadows over Innistrad"
+        id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_MSS">
+        <description>
+            <p>Thw twin blades on this magic spear are made of blessed silver.</p>
+
+            <p class="indent"><strong><em>Angelic summons.</em></strong> You can use an action to speak this spear's
+                command word, summoning a guardian angel to smite a foe within 60ft of you that you can see. The angel
+                materializes over you and immediately flies to the target, striking it for 3d6 radiant damage. If the
+                target is a fiend or undead, that creature takes an additional 2d6 radiant damage and if it fails a DC
+                15 Wisdom save it becomes frightened of you until the end of your next turn. The angel dissapears after
+                its attack. This property can't be used again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="keywords">spear</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="spear">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Spear</set>
+        </setters>
+    </element>
 </elements>
