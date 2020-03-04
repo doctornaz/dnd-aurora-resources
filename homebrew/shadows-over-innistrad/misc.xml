@@ -3,7 +3,7 @@
     <info>
         <name>Items</name>
         <author url="https://criticalrole.fandom.com/wiki/Whisper">Critical Role</author>
-        <update version="0.1.7">
+        <update version="0.1.8">
             <file name="misc.xml"
                 url="https://raw.githubusercontent.com/drnaz/dnd-aurora-resources/master/homebrew/shadows-over-innistrad/misc.xml" />
         </update>
@@ -321,7 +321,7 @@
             <set name="category">Magic Armor</set>
             <set name="cost" currency="gp">0</set>
             <set name="type" addition="shield">Armor</set>
-            <set name="rarity">Very Rare</set>
+            <set name="rarity">Legendary</set>
             <set name="enhancement">3</set>
             <set name="attunement">true</set>
             <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
@@ -351,6 +351,29 @@
             <set name="rarity">Rare</set>
             <set name="enhancement">3</set>
             <set name="weapon">Spear</set>
+        </setters>
+    </element>
+    <element name="Arm of the Faithful" type="Magic Item" source="Dungeon Master’s Guide"
+        id="ID_DRNAZ_SHADOWSOVERINNISTRAD_MAGIC_ITEM_AOTF">
+        <description>
+            <p>This long chain of blessed silver is wrapped around the length of the wearer's arm, from shoulder to
+                wrist. Tiny wooden containers in the shape of prayer beads hang from the chain; inside each one is a
+                fragment of parchment with a holy word in Celestial, the blessed tongue of Avacyn. The chain ends in the
+                form of Avacyn's Collar at the wrist. It's midly uncomfortable to wear, but gives the bearer a calming
+                sense of tranquility.</p>
+
+            <p>Wearing this chain grants a bonus +2 DC to any Channel Divinity class ability the wearer uses that
+                requires a savings throw.</p>
+        </description>
+        <setters>
+            <set name="keywords">necklace</set>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">neck</set>
+            <set name="type">Wondrous Item</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Common</set>
         </setters>
     </element>
 </elements>
